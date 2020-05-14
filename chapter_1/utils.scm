@@ -2,6 +2,8 @@
 
 ;; Maths
 (define (square x) (* x x))
+(define (max a b) 
+    (if (>= a b) a b))    
 (define (average x y) 
   (/ (+ x y) 2))
 
@@ -11,11 +13,11 @@
 (define false #f)
 
 
-
 (provide 
     ;; Maths
     square
     average
+    max
 
     ;; Tests
     assert
