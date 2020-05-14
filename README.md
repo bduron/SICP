@@ -1,7 +1,17 @@
-- [How to import modules](#how-to-import-modules)
-- [How to improve the MIT-Scheme interpreter](#how-to-improve-the-mit-scheme-interpreter)
-  
-  
+<img src="racket-logo.png" alt="drawing" width="200"/>
+
+
+# Chapters 
+[Chapter 1](chapter_1/chapter_1.md)    
+
+---
+
+# Project setup 
+- [Chapters](#chapters)
+- [Project setup](#project-setup)
+  - [How to import modules](#how-to-import-modules)
+  - [How to improve the MIT-Scheme interpreter](#how-to-improve-the-mit-scheme-interpreter)
+
 ## How to import modules
 
 The file you want to import must be a racket file : 
