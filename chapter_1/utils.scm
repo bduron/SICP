@@ -9,5 +9,4 @@
     assert
     true
     false
-    add
-)
+    add)
