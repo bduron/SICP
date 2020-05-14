@@ -1,3 +1,7 @@
+- [How to import modules](#how-to-import-modules)
+- [How to improve the MIT-Scheme interpreter](#how-to-improve-the-mit-scheme-interpreter)
+  
+  
 ## How to import modules
 
 The file you want to import must be a racket file : 
@@ -20,3 +24,11 @@ The file you want to import must be a racket file :
 example
 ;; => 1
 ```
+
+## How to improve the MIT-Scheme interpreter
+
+```bash
+rlwrap -r -c -f "$HOME"/scheme_completion.txt scheme
+```
+
+[More on Stackoverflow answer](https://stackoverflow.com/questions/11908746/mit-scheme-repl-with-command-line-history-and-tab-completion)

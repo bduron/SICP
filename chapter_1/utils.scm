@@ -1,10 +1,13 @@
 #lang racket
 
-(define (assert a b) (= a b))
-(define constant (+ 5 5))
+(define (assert a b) (eq? a b))
 (define (add a b) (+ a b))
-(display 'lol)
+(define true #t)
+(define false #f)
 
-(provide assert)
-(provide constant)
-(provide add)
+(provide 
+    assert
+    true
+    false
+    add
+)
