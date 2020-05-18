@@ -5,6 +5,12 @@
 
 ## The Elements of Programming
 
+- [Chapter 1](#chapter-1)
+  - [The Elements of Programming](#the-elements-of-programming)
+      - [Forming complex ideas](#forming-complex-ideas)
+      - [The Substitution Model for Procedure Application](#the-substitution-model-for-procedure-application)
+      - [Declarative vs. Imperative knowledge](#declarative-vs-imperative-knowledge)
+
 ---
 
 #### Forming complex ideas
@@ -65,3 +71,15 @@ Fully expand to primitive values, then reduce.
 #### Declarative vs. Imperative knowledge 
 
 The contrast between function and procedure is a reflection of the general distinction between describing properties of things and describing how to do things, or, as it is sometimes referred to, the distinction between declarative knowledge and imperative knowledge. In mathematics we are usually concerned with declarative (what is) descriptions, whereas in computer science we are usually concerned with imperative (how to) descriptions.
+
+#### Procedures as Black-Box Abstractions
+
+**Free vs. bound variables** 
+
+**Lexical scoping**
+Lexical scoping dictates that free variables in a procedure are taken to refer to bindings made by enclosing procedure definitions; that is, they are looked up in the environment in which the procedure was defined.
+
+Here,lexical scoping and the block structure allows to hide away internal `sqrt` procedures, and simplify formal parameters of sub-procedures as some of them (eg. `x`) are available in the lexical closure.  
+
+
+> ( ? ) But isn't this block structure an obstacle to unit test the sub-procedures?   

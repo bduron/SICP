@@ -2,6 +2,7 @@
 
 ;; Maths
 (define (square x) (* x x))
+(define (cube x) (* x x x))
 (define (max a b) 
     (if (>= a b) a b))    
 (define (average x y) 
@@ -16,6 +17,7 @@
 (provide 
     ;; Maths
     square
+    cube
     average
     max
 
